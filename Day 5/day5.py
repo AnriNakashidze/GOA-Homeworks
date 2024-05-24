@@ -2,7 +2,8 @@ from turtle import *
 
 speed(200)
 
-#Castle
+
+# Castle
 penup()
 goto(-200, -90)
 pendown()
@@ -43,6 +44,8 @@ penup()
 goto(-200, -90)
 pendown()
 left(90)
+
+# Outline for the Castle
 width(5)
 color("black")
 forward(300)
@@ -60,6 +63,7 @@ left(90)
 forward(70)
 left(90)
 forward(350)
+
 width(2)
 penup()
 goto(0, -90)
@@ -73,6 +77,8 @@ forward(90)
 left(90)
 forward(125)
 end_fill()
+
+# A Couple
 penup()
 goto(125, -90)
 pendown()
@@ -172,13 +178,32 @@ begin_fill()
 circle(15)
 end_fill()
 
+# Background 
+bgcolor("cyan")
 
+#The Ground
+penup()
+goto(-500, -90)
+pendown()
+begin_fill()
+color("green")
+right(40)
+forward(50000)
+right(90)
+forward(20000)
+right(90)
+forward(50000)
+right(90)
+forward(50000)
+end_fill()
 
-
-
-
-
-
-
-
+# The sun
+penup()
+goto(200, 250)
+pendown()
+begin_fill()
+color("yellow")
+left(90)
+circle(75)
+end_fill()
 exitonclick()
