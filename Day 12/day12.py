@@ -56,9 +56,9 @@ for i in range(5, 11):
     result = result * i
 print("Final Result:", result)
 
-
+# 10)BOSS: For loop დახმარებით ეცადეთ, რომ სიტყვა დაპრინტოთ საპირისპირო მიმართულებით (შეიძლება არ გამოგივიდეთ მაგრამ სცადეთ)
 word = "GOA is the best"
 reversed_word = ""
-for i in range(len(word)):
+for i in range(len(word)): #(ჩემით არ გამიკეთებია გუგლში მოვიძიე და იმის დამიხედვით გავაკეთე.)
     reversed_word = word[i] + reversed_word
 print("Final Result:", reversed_word)
